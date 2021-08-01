@@ -1,0 +1,45 @@
+.header {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    border-radius: 30px;
+}
+
+.main{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    height: 80vh;
+}
+.section{
+    background-color:black;
+    color: white;
+    width: 320px;
+    border-radius:10px;
+}
+.section h2{
+    /* margin-bottom: 0; */
+    padding-left: 15px;
+    
+}
+.btn{
+    border-radius:10px;
+    margin-top: 20px;
+    height: 55px;
+    width: 100px;
+    /* border: none; */
+    border-bottom: 5px solid red;
+    border-right: 5px solid red;
+    background-color: transparent;
+    font-size:18px ;
+    font-family: monospace;
+}
+.btn:hover{
+    /* background-color: black; */
+    /* color: white; */
+    border-color: green;
+    cursor: pointer;
+}
